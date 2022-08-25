@@ -1,4 +1,4 @@
 # mysassybase
 
 
-https://marisumidamiyashiro.github.io/studentsite/
+https://marisumidamiyashiro.github.io/mysassybase/
