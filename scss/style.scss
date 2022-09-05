@@ -1,7 +1,23 @@
-$color-background: pink;
-
 @import "partials/toc";
 
-body {
-    background: $color-background;
-}
+
+/* GLOBAL RESETS */
+* {box-sizing: border-box;}
+
+// VARIABLES
+
+$color-text-body: rgba(0, 0, 0, 0.8);
+$color-text-headings: rgb(0, 0, 0);
+$color-accent: rgba(255, 0, 140, 0.5);
+$color-accent-dark: rgb(255, 0, 140);
+
+$color-lightgrey: rgba(0, 0 ,0, .5);
+
+$font-family-sans: Bilo, Arial, Helvetica, sans-serif;
+$font-family-serif: fairplex-narrow, Georgia, 'Times New Roman', serif;
+
+// IMPORTS
+
+@import "partials/typography";
+@import "partials/button";
+
