@@ -3,7 +3,7 @@
 .button {
     display: inline-block;
     background-color: $color-accent;
-    color: $color-accent-dark;
+    color: white;
     text-decoration: none;
     padding: 1em;
     border-radius: 5px;
@@ -11,7 +11,6 @@
 
     &:hover {
         background-color: $color-accent-dark;
-        color: $color-accent-light;
     }
 
 }

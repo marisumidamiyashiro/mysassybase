@@ -53,3 +53,21 @@ $gridgap: 2%;
         }
     }
 }
+
+
+
+// FOR DEMO PURPOSES ONLY
+
+.demo {
+
+    .row {        
+
+        margin-bottom: 0;
+
+        > * {
+            background-color: rgba(0,0,0,.1);
+            padding: 1%;
+        }
+    }
+
+}

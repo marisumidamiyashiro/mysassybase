@@ -58,8 +58,7 @@ section {
 .hero {
     background-color: $color-accent-light; 
     text-align: center;
-    padding: 10em 0;
-    height: 75vh;
+    padding: 6em 0;
 
     h1 {
         margin-bottom: .25em;
@@ -81,17 +80,4 @@ section {
     display: table;
     padding: 0 0 .5em 0;
     margin: 1em auto 3em auto;
-}
-
-.projects {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-
-    img {
-    border-radius: 25px;
-    height: 300px;
-    object-fit: cover;
-    }
 }
