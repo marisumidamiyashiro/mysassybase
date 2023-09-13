@@ -78,3 +78,16 @@ hr {
     margin: .25em 0;
     color: $color-lightgrey;
 }
+
+.projects {
+    
+    a {
+        text-decoration: none;
+        color: $color-accent;
+        padding: 1em;
+
+        &:hover {
+            animation: blur .5s cubic-bezier(.25,.25,.25,.5) both;
+        }
+    }
+}
